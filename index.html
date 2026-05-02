@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>24x7customercarehelp | Washing Machine Service in Bangalore</title>
+
+  <style>
+    body { font-family: Arial; margin: 0; background: #f4f6f9; }
+    header { background: #0a74da; color: white; padding: 20px; text-align: center; }
+    nav { background: #222; padding: 10px; text-align: center; }
+    nav a { color: white; margin: 10px; text-decoration: none; }
+
+    section { padding: 20px; }
+    .card {
+      background: white;
+      padding: 20px;
+      margin: 15px 0;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 18px;
+      margin-top: 10px;
+      border-radius: 5px;
+      text-decoration: none;
+      color: white;
+    }
+
+    .call { background: #e63946; }
+    .whatsapp { background: #25D366; }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    form button {
+      background: #0a74da;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    footer {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>24x7customercarehelp</h1>
+  <p>Washing Machine Repair Service in Bangalore - 24/7 Support</p>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#services">Services</a>
+  <a href="#book">Book Service</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section>
+
+<div class="card">
+  <h2>Fast & Reliable Repair Service</h2>
+  <p>We provide expert washing machine repair services across Bangalore. Same-day service available.</p>
+
+  <a class="btn call" href="tel:+91XXXXXXXXXX">📞 Call Now</a>
+  <a class="btn whatsapp" href="https://wa.me/91XXXXXXXXXX?text=I%20need%20washing%20machine%20repair">💬 WhatsApp</a>
+</div>
+
+<div id="services" class="card">
+  <h2>Our Services</h2>
+  <ul>
+    <li>Fully Automatic Repair</li>
+    <li>Semi-Automatic Repair</li>
+    <li>Installation & Uninstallation</li>
+    <li>Drum / Motor Issues</li>
+    <li>Water Leakage Fix</li>
+  </ul>
+</div>
+
+<div class="card">
+  <h2>Why Choose Us?</h2>
+  <ul>
+    <li>24x7 Customer Support</li>
+    <li>Same Day Service</li>
+    <li>Affordable Pricing</li>
+    <li>Experienced Technicians</li>
+  </ul>
+</div>
+
+<div id="book" class="card">
+  <h2>Book a Service</h2>
+
+  <form onsubmit="sendToWhatsApp(); return false;">
+    <input type="text" id="name" placeholder="Your Name" required>
+    <input type="text" id="phone" placeholder="Phone Number" required>
+    <textarea id="issue" placeholder="Describe your problem" required></textarea>
+    <button type="submit">Submit</button>
+  </form>
+</div>
+
+<div id="contact" class="card">
+  <h2>Contact Us</h2>
+  <p>📍 Service Area: Bangalore</p>
+  <p>📞 Phone: +91 XXXXX XXXXX</p>
+  <p>📧 Email: support@24x7customercarehelp.com</p>
+</div>
+
+</section>
+
+<footer>
+  <p>© 2026 24x7customercarehelp</p>
+</footer>
+
+<script>
+function sendToWhatsApp() {
+  var name = document.getElementById("name").value;
+  var phone = document.getElementById("phone").value;
+  var issue = document.getElementById("issue").value;
+
+  var message = "New Service Request:%0AName: " + name + "%0APhone: " + phone + "%0AIssue: " + issue;
+
+  window.open("https://wa.me/91XXXXXXXXXX?text=" + message, "_blank");
+}
+</script>
+
+</body>
+</html>
